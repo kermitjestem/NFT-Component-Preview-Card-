@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  font-family: Outfit;
+  margin: 8px;
+  padding: 16px;
+}
+
+.main-card {
+  padding: 20px;
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 16px;
+  display: flex;
+  width: 275px;
+  margin: auto;
+}
+
+.main-card-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.main-card-container a:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+  color: hsl(215deg, 51%, 70%);
+}
+
+img {
+  width: 100%;
+  display: flex;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+img a:hover {
+  background-color: red;
+}
+
+.stats hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(215deg, 51%, 70%);
+}
+.stats ul {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.stats ul .li1 {
+  font-size: 20px;
+  color: hsl(178deg, 100%, 50%);
+  list-style-image: url("../images/icon-ethereum.svg");
+}
+.stats ul .li2 {
+  font-size: 20px;
+  color: hsl(215deg, 51%, 70%);
+  list-style-image: url("../images/icon-clock.svg");
+}
+
+@media only screen and (min-width: 500px) {
+  .main-card-container {
+    margin: auto;
+    align-content: center;
+    display: flexbox;
+    justify-content: center;
+    align-self: center;
+  }
+  .main-card {
+    margin: auto;
+    align-content: center;
+    padding: 20px;
+    background-color: hsl(216deg, 50%, 16%);
+    border-radius: 16px;
+    width: 275px;
+  }
+}/*# sourceMappingURL=main.css.map */
